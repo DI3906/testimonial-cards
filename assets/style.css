@@ -1,0 +1,76 @@
+* {  
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.main {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.testimonials-first {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.testimonials-first__balloon, .testimonials-first__card {
+    width: 45%;
+}
+
+.testimonials-first__description {
+    background: #000;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.testimonials-first__paragraph--light {
+    color: #fff;
+}
+
+.testimonials-first__triangle {
+    margin-left: 20px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 12px 10px 0 10px;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(0deg);
+}
+
+.testimonials-first__content-person {
+    align-items: center;
+    margin-top: 3px;
+}
+
+.testimonials-first__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonials-first__person {
+    margin-left: 1rem;
+}
+
+.testimonials-first__name, .testimonials-first__job {
+    margin-bottom: 0;
+}
+
+.testimonials-first__job {
+    font-size: 12px;
+}
+
+/* second target */
+.testimonials-first__card {
+    border: 2px solid #000;
+    border-radius: 18px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-first__content-person {
+    display: flex;
+}
